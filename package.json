@@ -1,6 +1,6 @@
 {
     "name": "yma-cookie",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Cookie 获取与设置",
     "main": "./src/index.js",
     "scripts": {},
