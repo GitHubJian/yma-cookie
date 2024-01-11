@@ -104,11 +104,11 @@ class Cookie {
                 cookie = parts.join('=');
 
             if (key === name) {
-                result = read(cookie);
+                result = this.read(cookie);
                 break;
             }
 
-            if (!key && (cookie = read(cookie)) !== undefined) {
+            if (!key && (cookie = this.read(cookie)) !== undefined) {
                 result[dekey(name)] = cookie;
             }
         }
